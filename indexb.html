@@ -120,6 +120,30 @@
             var pass = document.getElementById('pass').value;
             var address = document.getElementById('address').value;
 
+             console.log({
+        firstName,
+        lastName,
+        email,
+        phone,
+        age,
+        gender,
+        city,
+        pin,
+        pass,
+        address
+
+        });
+
+            alert('Registration successfull ');
+        form.reset();
+
+
+
+        // Redirect to the homepage or another page after 2 seconds
+        setTimeout(function() {
+            window.location.href = "index.html";  // Update this URL to the actual homepage URL
+        }, 2000);  // 2000 milliseconds = 2 seconds
+
         })
     </script>
 </body>
